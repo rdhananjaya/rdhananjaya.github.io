@@ -1,0 +1,11 @@
+---
+layout: post
+title:  "Test Post"
+date:   2016-06-11 17:26:36 +0530
+categories: tests
+---
+Hello this is some paragraph, let's see who it will look :D.
+
+And then this one is second paragraph.
+
+So I think I'll like this to be my blog site. Lets see...
