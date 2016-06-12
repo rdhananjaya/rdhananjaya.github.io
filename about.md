@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](http://jekyllrb.com/)
+My name is Dhananjaya, and here I blog about software development in general and programming language applications such as compilers, transpilers, and DSLs.
 
-You can find the source code for the Jekyll new theme at:
-{% include icon-github.html username="jglovier" %} /
-[jekyll-new](https://github.com/jglovier/jekyll-new)
+You can find more about me, [here in my linkedin profile](https://lk.linkedin.com/in/roshandhananajaya).
 
-You can find the source code for Jekyll at
-{% include icon-github.html username="jekyll" %} /
-[jekyll](https://github.com/jekyll/jekyll)
+This blog is generated using [Jekyll](https://jekyllrb.com/) and hosted in [github-pages](https://pages.github.com/).
