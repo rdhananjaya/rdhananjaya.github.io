@@ -7,7 +7,6 @@
 
 # Site settings
 title: Transpiler
-email: roshandhananjaya@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Journey through programming language applications and software development in general.
 baseurl: "" # the subpath of your site, e.g. /blog
