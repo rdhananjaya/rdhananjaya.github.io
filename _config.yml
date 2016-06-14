@@ -16,3 +16,7 @@ github_username:  rdhananjaya
 
 # Build settings
 markdown: kramdown
+
+gems:
+ - jekyll-gist
+ 
