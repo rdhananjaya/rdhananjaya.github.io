@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Backtracking Parser"
+summary: "Backtracking parsers allow arbitrary lookahead letting us parse more complicated languages which look similar from left edge."
 date:   2016-06-14 10:16:36 +0530
 categories: compiler
 comments: true
@@ -12,5 +13,8 @@ Our strategy here is to speculatively attempt to parse alternatives in order unt
 
 {% gist 7a2595d4a391aff03c3e0f09a2d13af9 %}
 
-And these speculative predicates can easy be implemented by trying to match related alternative in a try-catch block as in *speculateFuncDefinition*.
+And these speculative predicates can easy be implemented by trying to match related alternative in a try-catch block as in *speculateFuncDefinition*. By using try-catch error handling mechanism to detect speculation miss-match we can reuse our usual LL(K) parser code after a little modification.
 
+*mark()* and *release()* methods pushes current token index into a stack, and pops out and rewind the token stream, respectively. This works nicely until we have some side effecting code inside match functions. To guard against such dual invocation of side effects, when speculating and when matching, we can use a flag to indicate whether this is a speculation or actual matching and only perform the side effecting action when it's appropriate to do so.
+
+Although we can parse complex languages using backtracking parsers, they are inherently inefficient because we have duplicate work, we can use memoizing techniques to avoid this duplicate work by storing information when matching in the speculative phase.
