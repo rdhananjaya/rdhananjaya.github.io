@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Visitor Pattern: The Mechanism"
-summary: ""
+summary: "Let's try to understand visitor pattern by thinking about how it's actually work under the hood, when to use it, and pros and cons of the visitor pattern."
 date:   2016-06-29 10:16:36 +0530
 categories: design
 comments: true
@@ -155,3 +155,23 @@ For example in objectOfTypeA.method(x), both objectOftypeA and x are considered 
 ***** TODO how C# implement dispatching 
 C# can archive multiple dispatch without using visitor pattern.
 By casting to *dynamic*.
+
+
+#### References and further readings..
+
+[Stackoverflow discussion about when to use the visitor pattern.](http://stackoverflow.com/questions/255214/when-should-i-use-the-visitor-design-pattern)
+
+[Robet C. Martin's explanation of visitor pattern with a practicle example.](http://www.butunclebob.com/ArticleS.UncleBob.IuseVisitor)
+
+[http://codebetter.com/jeremymiller/2007/10/31/be-not-afraid-of-the-visitor-the-big-bad-composite-or-their-little-friend-double-dispatch/](http://codebetter.com/jeremymiller/2007/10/31/be-not-afraid-of-the-visitor-the-big-bad-composite-or-their-little-friend-double-dispatch/)
+
+https://blogs.msdn.microsoft.com/shawnhar/2011/04/05/visitor-and-multiple-dispatch-via-c-dynamic/
+https://blogs.msdn.microsoft.com/ericlippert/2011/03/17/implementing-the-virtual-method-pattern-in-c-part-one/
+
+[http://www.objectmentor.com/resources/articles/visitor](http://www.objectmentor.com/resources/articles/visitor)
+
+[http://c2.com/cgi/wiki?MultipleDispatch](http://c2.com/cgi/wiki?MultipleDispatch)
+
+[http://c2.com/cgi/wiki?DoubleDispatchExample](http://c2.com/cgi/wiki?DoubleDispatchExample)
+
+[http://c2.com/cgi/wiki?VisitorPattern](http://c2.com/cgi/wiki?VisitorPattern)
