@@ -112,10 +112,9 @@ a {
 blockquote {
     color: $grey-color;
     border-left: 4px solid $grey-color-light;
-    padding-left: $spacing-unit / 2;
-    font-size: 18px;
-    letter-spacing: -1px;
-    font-style: italic;
+    padding-left: $spacing-unit / 4;
+    font-size: 16px;
+    //font-style: italic;
 
     > :last-child {
         margin-bottom: 0;
@@ -203,4 +202,16 @@ pre {
             fill: $grey-color;
         }
     }
+}
+
+.uml-class-representation {
+    border-collapse: collapse;
+    padding: 4px;
+
+    > table, td, th {
+	border: 1px solid $grey-color;
+	padding-left: 5px;
+	padding-right: 5px;
+    }
+
 }
