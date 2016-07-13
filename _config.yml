@@ -20,3 +20,4 @@ markdown: kramdown
 gems:
  - jekyll-gist
  - jekyll-sitemap
+ - jekyll-seo-tag
