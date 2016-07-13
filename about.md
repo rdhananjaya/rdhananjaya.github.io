@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-My name is Dhananjaya, here I blog about software development in general and programming language applications such as compilers, transpilers, and DSLs.
+My name is Roshan **Dhananjaya**, here I blog about software development in general and programming language applications such as compilers, transpilers, and DSLs.
 
 You can find more about me, [here in my linkedin profile](https://lk.linkedin.com/in/roshandhananajaya).
 
