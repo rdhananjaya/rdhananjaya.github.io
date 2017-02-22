@@ -59,12 +59,12 @@ Lets assume that we have an object structure where ASTNode is the supper class o
 
 AST Node structure, this is the object structure we will be operating our algorithms on.
 
-![AST Node structure](http://blog.dhananjaya.me/static/image/c0d1831f.png)
+![AST Node structure](https://blog.dhananjaya.me/static/image/c0d1831f.png)
 
 All the implementations of **ASTNode** need to have a one method that accept instance of **ASTVisitor** and call the method dedicated for current node with argument of **this**, or a instance of current class.
 
 Visitor interface and concrete visitor implementations.
-![ASTVisitor Interface and concrete visitor implementations](http://blog.dhananjaya.me/static/image/c66d3d58.png)
+![ASTVisitor Interface and concrete visitor implementations](https://blog.dhananjaya.me/static/image/c66d3d58.png)
 
 All of the visitors has to have a method to handle visitation to each node, such as **visitDeclaration(DeclarationNode node)** which handle visitation for DeclarationNode.
 
