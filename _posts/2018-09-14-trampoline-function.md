@@ -9,7 +9,7 @@ page_id: trampoline
 ---
 
 After numerous attempts at understanding the trampoline concept
-I found [this](https://stackoverflow.com/questions/189725/what-is-a-trampoline-function) StackOverflow question that helped me to understand it better, well better than my other attempts. In this post I'm elaborating it a bit so that I can refer to it later.
+I found [this](https://stackoverflow.com/questions/189725/what-is-a-trampoline-function) StackOverflow question that helped me understand it better, well better than my other attempts. In this post I'm elaborating it a bit so that I can refer to it later.
 
 ```java
 import java.math.BigInteger;
@@ -75,6 +75,6 @@ The name trampoline is because in this mechanism the execution jumps to the tram
 
 In the example `factorial` program, `run()` is this arbitrary execution step (or the thunk). In our case run() will execute one step of the algorithm and jump back to the trampoline. Then the while loop will schedule the next step of the execution, depending on what the previous execution of `run()` returned.
 
-
+The `factorial` function in the trampolining code looks at the inputs and return one of the two instances of the Trampoline instances.
 
 
